@@ -1,0 +1,29 @@
+<html>
+     <head>
+          <title>SignUp Page</title>
+     </head>
+     <body>
+          <h1>SignUp Page</h1><br><br>
+          <form action = "" method = POST>
+               {% csrf_token %} 
+               <label>Name </label>
+               <input type="text" name ="name">
+               <br>
+               <label>Email </label>
+               <input type="email" name ="email">
+               <br>
+               <label>ph </label>
+               <input type="text" name ="ph">
+               <br>
+               <label>password </label>
+               <input type="password" name ="password1">
+               <br>
+               <label>Confirm password </label>
+               <input type="password" name ="password2">
+               <br>
+               <input type="submit">
+
+
+          </form>
+     </body>
+</html>
